@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #28292C;
+  border-radius: 10px;
+  justify-content: space-between;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .addButton {
+      display: flex;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  .additionalInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 12px 0;
+    .info {
+      display: flex;
+      align-items: center;
+      span {
+        color: #ffffff;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  .backgrounds {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .backgroundIcon:nth-child(1),
+    .backgroundIcon:nth-child(2) {
+      margin-right: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+
+    .name {
+      color: #ffffff;
+    }
+
+    .role {
+      color: #939495;
+      font-size: 12px;
+    }
+  }
+}

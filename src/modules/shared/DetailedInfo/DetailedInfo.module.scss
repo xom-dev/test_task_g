@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+  padding: 16px 0 16px 16px;
+  background-color: #28292B;
+  border-radius: 10px;
+  align-items: center;
+  .progressBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    .progress {
+      display: flex;
+      align-items: center;
+      .progressDone {
+        color: #ffffff;
+        font-size: 20px;
+      }
+      .progressDivider {
+        color: rgba(255, 255, 255, 0.5);
+        margin: 0 0.3rem;
+      }
+      .progressAll {
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    .title {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+.wrapper:nth-child(1),
+.wrapper:nth-child(2) {
+  margin-right: 16px;
+}

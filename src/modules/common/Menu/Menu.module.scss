@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+
+  .logo {
+    display: flex;
+    padding: 20px 24px 32px 0;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+
+    .activeMenuItem {
+      display: flex;
+      background-color: #7789EA;
+      padding: 13px;
+      border-radius: 10px;
+      color: #FFFFFF;
+      text-decoration: none;
+      align-items: center;
+      .icon {
+        height: 20px;
+        width: 20px;
+        mix-blend-mode: color-dodge;
+      }
+      .title {
+        margin-left: 1rem;
+      }
+    }
+
+    .menuItem {
+      display: flex;
+      padding: 13px;
+      color: #FFFFFF;
+      text-decoration: none;
+      align-items: center;
+      .icon {
+        height: 20px;
+        width: 20px;
+      }
+      .title {
+        margin-left: 1rem;
+      }
+    }
+
+    .divider {
+      height: 1px;
+      background-color: #333539;
+      border-radius: 5px;
+    }
+  }
+
+  .signOutBtn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 13px;
+    cursor: pointer;
+    margin-top: auto;
+    .btnTitle {
+      margin-left: 1rem;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  }
+}
